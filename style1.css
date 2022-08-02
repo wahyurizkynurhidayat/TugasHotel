@@ -1,0 +1,40 @@
+body {
+    font-family: Arial;
+    margin: 0;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+    background-color: rgb(234, 5, 188);
+}
+li a {
+    display:block;
+    padding: 25px;
+    color: rgb(66, 34, 248);
+    float: right;
+    border-left: 1px solid rgb(8, 71, 229);
+
+}
+li h1 {
+    padding-left: 30px;
+    padding-right: 30px;
+    color: rgb(0, 34, 255);
+
+}
+.active {
+    background-color: rgb(191, 254, 146);
+
+}
+.header {
+    padding: 60px;
+    text-align: center;
+    background: rgb(237, 4, 4);
+    color: rgb(24, 191, 232);
+    font-size: 30px;
+}
+.content {
+    padding: 20px;
+}
